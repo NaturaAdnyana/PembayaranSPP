@@ -1,0 +1,223 @@
+.container5{
+	margin-top: 50px;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+	padding: 30px;
+}
+.container5 h3 a{
+	color: #002A8CFF;
+	padding: 1px;
+}
+.container5 h3 a:hover{
+	border-bottom: solid 2px;
+	color: blue;
+}
+.container5 h2{
+	margin-top: 10px;
+	font-family: Tahoma;
+}
+.container5 h5{
+	margin-top: 10px;
+}
+.container5 h4{
+	margin-top: 10px;
+}
+.container5 h4 a{
+	text-decoration: underline;
+	color: darkgreen;
+}
+.container5 h4 a:hover{
+	color: #11B400FF;
+}
+.container5 table{
+	margin: auto;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+.container5 table tr:nth-child(odd) {
+    background-color: #E0E0E0FF;
+}
+.container5 table tr:nth-child(even) {
+    background-color: white;
+}
+.container5 table tr td{
+	padding: 5px 10px;
+}
+.container5 table tr td a{
+	padding: 2px;
+	border-radius: 2px;
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.container5 table tr td .cek_info:hover{
+	color: blue;
+}
+.container5 table tr td .konfirmasi:hover{
+	color: green;
+}
+.container5 table tr td .batal:hover{
+	color: red;
+}
+.container5 table tr td .edit_siswa{
+	border: none;
+	background-color: transparent;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.container5 table tr td .edit_siswa:hover{
+	color: green;
+}
+.container5 form{
+	margin-top: 5px;
+}
+.container5 form input{
+	padding: 5px;
+	font-weight: bold;
+}
+.container5 form input[type="submit"]{
+	background-color: lightgreen;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.container5 form input[type="submit"]:hover{
+	background-color: #77FF00FF;
+}
+.container6{
+	margin-top: 50px;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+	padding: 30px;
+}
+.container6 h1{
+	font-family: Tahoma;
+}
+.container6 table{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.container6 table tr{
+	height: 40px;
+}
+.container6 table tr td{
+	font-weight: bold;
+	font-size: 18px;
+	font-style: italic;
+	color: #1E1E1EFF;
+}
+.container6 .list{
+	font-size: 19px;
+	font-style: normal;
+	color: black;
+}
+.container6 .kirim_pesan{
+	margin-right: 10px;
+	padding: 10px 15px;
+	background-color: #0057FFFF;
+	font-weight: bold;
+	transition: 0.5s;
+	color: black;
+	border-radius: 5px;
+}
+.container6 .kirim_pesan:hover{
+	background-color: #009BFFFF;
+}
+.container6 .selesai_konf{
+	margin-left: 20px;
+	padding: 10px 15px;
+	background-color: #2BD32BFF;
+	font-weight: bold;
+	font-style: italic;
+	transition: 0.5s;
+	color: black;
+	border-radius: 3px;
+
+}
+.container6 .selesai_konf:hover{
+	background-color: #96FF00FF;
+}
+.container7{
+	margin-top: 50px;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+	padding: 30px;
+}
+.container7 h4{
+	margin-top: 10px;
+}
+.container7 form{
+	margin-top: 10px;
+	background-color: white;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 1px 5px black;
+	height: 250px;
+	overflow: hidden;
+}
+.container7 form img{
+	float: right;
+	width: 150px;
+	margin-right: -50px;
+	margin-top: -50px;
+}
+.container7 form .cs_img{
+	float: left;
+	margin-top: -80px;
+	margin-left: 50px;
+}
+.container7 form a{
+	padding: 5px 7px;
+	border-radius: 10px;
+	background-color: purple;
+	color: white;
+	transition: 0.4s;
+}
+.container7 form a:hover{
+	background-color: #6B00D3FF;
+}
+.container7 form table{
+	margin-top: 10px;
+	margin: auto;
+	font-family: calibri;
+	position: relative;
+	z-index: 2;
+}
+.container7 form table tr td{
+	padding-left: 50px;
+}
+.container7 form table tr td label{
+	font-weight: bold;
+	font-size: 20px;
+}
+.container7 form table tr td input[type="text"]{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.container7 form table tr td input[type="number"]{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.container7 form table tr td textarea{
+	width: 245px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.container7 form table tr td input[type="submit"]{
+	background-color: #008534FF;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	width: 250px;
+	height: 40px;
+	transition: 0.4s;
+}
+.container7 form table tr td input[type="submit"]:hover{
+	background-color: green;
+	font-style: 19px;
+	color: white;
+	cursor: pointer;
+}
+.container7 form table tr td select{
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px;
+}

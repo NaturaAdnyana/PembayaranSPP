@@ -1,0 +1,260 @@
+.landing_siswa{
+	margin: 20px;
+	margin-top: 70px;
+	text-align: center;
+	padding: 50px;
+	background-color: #FFFFFFE0;
+	border: solid;
+	border-color: green;
+	border-radius: 30px;
+}
+.landing_siswa h1{
+	font-family: Arial;
+}
+.landing_siswa img{
+	margin: 10px;
+	width: 100px;
+}
+.landing_siswa h2{
+	margin: 20px;
+}
+.status_bayar{
+	background-image: url(../img/paper_texture.jfif);
+	padding: 10px;
+	padding-bottom: 20px;
+	box-shadow: 0 1px 5px black;
+	width: 30%;
+	height: 150px;
+	margin: auto;
+	border-radius: 10px;
+}
+.status_bayar h3{
+	padding: 10px;
+	border-radius: 10px;
+}
+.status_bayar h3 a{
+	padding: 8px 15px;
+	background-color: orange;
+	border-radius: 20px;
+	color: black;
+	box-shadow: 0 1px 3px black;
+	transition: 0.2s;
+}
+.status_bayar h3 a:hover{
+	box-shadow: 1px 0 3px black;
+	background-color: #FFCF00FF;
+}
+.status_bayar2{
+	float: left;
+	background-image: url(../img/paper_texture.jfif);
+	padding: 10px;
+	box-shadow: 0 1px 5px black;
+	border-radius: 10px;
+	width: 400px;
+	margin-top: -160px;
+	margin-left: -30px;
+}
+.status_bayar2 table{
+	text-align: left;
+	font-weight: bold;
+}
+.status_bayar2 table td:nth-child(3){
+	font-style: italic;
+}
+.status_bayar2 table tr td i{
+	font-size: 12px;
+}
+.container1{
+	margin-top: 50px;
+	background-color: #FFFFFFE0;
+	padding: 30px;
+	height: 650px;
+}
+.form_spp{
+	line-height: 2em;
+}
+.form_spp form{
+	background-image: url("../img/paper_texture.jfif");
+	width: 50%;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 1px 3px black;
+	transition: 0.5s;
+	font-family: calibri;
+}
+.container1:hover .form_spp form{
+	width: 55%;
+}
+.form_spp form label{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+.form_spp form input[type="text"]{
+	font-size: 20px;
+	font-weight: bold;
+	width: 55%;
+	padding: 2px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: solid 1px;
+	margin-bottom: 30px;
+}
+.form_spp form input[type="number"]{
+	font-size: 20px;
+	font-weight: bold;
+	width: 55%;
+	padding: 2px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: solid 1px;
+	margin-bottom: 30px;
+}
+.form_spp form select{
+	background-color: #C0E6E3FF;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	width: 55%;
+	padding: 7px 10px;
+	border-radius: 10px;
+	outline: none;
+	transition: 0.5s;
+	margin-bottom: 30px;
+}
+.form_spp form select:hover{
+	box-shadow: 0px 1px 5px lightblue;
+}
+.form_spp form ul li{
+	display: inline-block;
+}
+.form_spp form ul li input[type="radio"]{
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+	transition: 0.2s;
+}
+.form_spp form ul li img{
+	margin: 0 10px 0 10px;
+	height: 30px;
+}
+.form_spp form input[type="submit"]{
+	margin-top: 20px;
+	width: 55%;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #80FF75FF;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.form_spp form input[type="submit"]:hover{
+	background-color: #50FF47FF;
+	font-size: 19px;
+}
+.container2{
+	width: 100%;
+	height: 1000px;
+	border-radius: 0 0 20px 20px;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+	line-height: 1.8em;
+}
+.container2 img{
+	margin-top: 30px;
+	width: 200px;
+}
+.qrcode_box{
+	padding: 10px 40px;
+	background-color: white;
+	height: 670px;
+	width: 30%;
+	border-radius: 30px;
+	box-shadow: 0px 1px 5px black;
+}
+.qrcode_box .logo_qr{
+	width: 70px;
+}
+.qrcode_box img{
+	width: 300px;
+}
+.qrcode_box label{
+	font-size: 10px;
+}
+.qrcode_box a{
+	padding: 5px 10px;
+	background-color: #2BC7D3FF;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+}
+.qrcode_box a:hover{
+	background-color: #1B9CE3FF;
+}
+.qrcode_box hr{
+	margin: 10px;
+}
+.qrcode_box input[type='text']{
+	padding: 2px;
+	width: 60%;
+	font-size: 15px;
+	outline: none;
+	transition: 0.5s;
+	margin-bottom: 10px;
+}
+.container2:hover .qrcode_box input[type='text']{
+	width: 65%;
+}
+.qrcode_box input[type='submit']{
+	margin-bottom: 10px;
+	width: 70%;
+	height: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.4s;
+	font-size: 18px;
+}
+.qrcode_box input[type='submit']:hover{
+	font-size: 17px;
+	background-color: black;
+	color: white;
+}
+/*.qrcode_box .batal_transaksi{
+	background-color: white;
+	border-bottom: solid 2px;
+	border-radius: 0px;
+	padding: 0 2px;
+}
+.qrcode_box .batal_transaksi:hover{
+	background-color: white;
+	color: darkred;
+}*/
+.pesan_sukses{
+	background-color: white;
+	width: 60%;
+	height: 200px;
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 1px 5px black;
+}
+.pesan_sukses p{
+	font-family: Verdana;
+	text-align: left;
+	margin-bottom: 100px;
+}
+.pesan_sukses a{
+	padding: 10px;
+	border: solid 1px;
+	font-weight: bold;
+	color: black;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+.pesan_sukses a:hover{
+	background-color: black;
+	color: white;
+}

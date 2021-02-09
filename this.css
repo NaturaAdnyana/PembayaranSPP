@@ -1,0 +1,635 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("img/gedung_smk_blur.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	font-family: Tahoma;
+	border: solid 1px;
+	height: 50px;
+	overflow: hidden;
+	z-index: 99;
+}
+nav img{
+	float: left;
+	height: 50px;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	position: relative;
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 14px 25px;
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+}
+nav ul li a:hover{
+	border-bottom: solid;
+	background-color: #0000004D;
+	padding: 14px 25px;
+}
+nav ul li a i{
+	transition: 0.5s;
+}
+nav ul li a:hover i{
+	font-size: 17px;
+}
+/*Hal index.php*/
+.welcome{
+	margin: 100px 30px 20px 30px;
+}
+.welcome img{
+	margin-left: 87%;
+	height: 150px;
+}
+.welcome .greeting{
+	padding: 15px;
+	width: 900px;
+	background-color: #00000091;
+	margin-top: 20px;
+	color: white;
+	font-size: 35px;
+	transition: 0.2s;
+	border-radius: 10px;
+}
+.welcome .greeting span{
+	color: #F6FF51FF;
+}
+.welcome:hover .greeting{
+	border-radius: 50px;
+	background-color: #00000095;
+}
+.contact{
+	position: fixed;
+	z-index: 99;
+	background-color: white;
+	width: 60px;
+	right: 15px;
+	bottom: 50px;
+	font-size: 35px;
+	border-radius: 30px;
+	box-shadow: 0px 1px 5px black;
+}
+.contact img{
+	width: 65%;
+	padding: 10px;
+}
+.contact a{
+	display: none;
+	padding: 10px;
+	color: black;
+	border-radius: 50%;
+	transition: 0.4s;
+}
+.contact:hover a{
+	display: block;
+	transition: 0.4s;
+}
+.contact a:hover{
+	background-color: green;
+	box-shadow: 1px -1px 5px darkgreen;
+}
+.contact:hover img{
+	display: none;
+}
+.pengenalan{
+/*	background-color: white;*/
+	background-image: url("img/paper_texture.jfif");
+	width: 100%;
+	height: 310px;
+	overflow: hidden;
+	text-align: right;
+	font-family: "Arial Black";
+}
+.pengenalan .circle{
+	/*background-color: #CECECEFF;*/
+	background-image: url("img/batik.jpg");
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: -100px 0 0 -50px;
+	transition: 0.5s ease-in;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+	filter: brightness(80%);
+}
+.pengenalan:hover .circle{
+	background-color: white;
+	margin-top: 100px;
+	width: 300px;
+	height: 300px;
+	filter: brightness(100%);
+}
+.pengenalan h1{
+	margin-top: 30px;
+	font-size: 40px;
+	margin-right: 50px;
+}
+.pengenalan h1 span{
+	font-style: italic;
+}
+.pengenalan p{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.pengenalan a{
+	margin-right: 50px;
+	border: solid 2px;
+	border-radius: 25px;
+	color: green;
+	padding: 8px 15px;
+	transition: 0.5s;
+}
+.pengenalan a:hover{
+	color: white;
+	border-color: #00951AFF;
+	background-color: green;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.9);
+}
+.didukung{
+	margin-top: 40px;
+	background-image: url("img/bg1.png");
+	background-attachment: fixed;
+}
+.didukung_box{
+	width: 80%;
+	height: 100%;
+	padding: 30px;
+	background: linear-gradient(90deg, #FFFFFF83, white, white, white, #FFFFFF83);
+	border-radius: 30px;
+}
+.didukung h1{
+	margin-bottom: 10px;
+}
+.didukung hr{
+	width: 300px;
+	height: 1px;
+}
+.didukung img{
+	padding: 30px;
+}
+.didukung .gopay{
+	height: 50px;
+}
+.didukung .ovo{
+	height: 45px;
+}
+.didukung .dana{
+	height: 60px;
+}
+.didukung p{
+	width: 60%;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 18px;
+}
+.mulai{
+	margin-top: 40px;
+	background-image: url("img/white_wave.jpg");
+	background-size: cover;
+	padding: 50px;
+	height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.mulai h1{
+	color: black;
+	font-family: "Arial Black";
+	padding-bottom: 30px;
+}
+.mulai a{
+	background-color: orange;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 30px;
+	color: black;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.9);
+	transition: 0.5s;
+}
+.mulai:hover a{
+	font-size: 22px;
+}
+.mulai a:hover{
+	color: orange;
+	background-color: black;
+	box-shadow: -1px -1px 10px rgba(0,0,0,0.9);
+}
+.mulai img{
+	float: right;
+	width: 200px;
+	position: relative;
+	bottom: 150px;
+	right: -40px;
+}
+.footer{
+	margin-top: 75px;
+	background-image: url("img/footer.jpg");
+	padding: 50px;
+	line-height: 1.5em;
+	color: white;
+	font-family: calibri;
+}
+.footer div{
+	display: inline-block;
+}
+.footer div a:hover{
+	text-decoration: underline;
+}
+.footer div h3{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.footer .gototop{
+	position: absolute;
+	right: 40px;
+	border: solid 1px;
+	padding: 5px 10px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+}
+.footer .footer1{
+	margin-left: 50px;
+	margin-right: 200px;
+}
+.footer .footer1 a{
+	display: block;
+	color: white;
+}
+.footer .footer2 .f_mail{
+	color: white;
+}
+.footer .footer2 .social1{
+	padding: 5px 15px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 20px;
+	transition: 0.5s;
+}
+.footer .footer2 .social1:hover{
+	background-color: blue;
+	color: white;
+}
+.footer .footer2 .social2{
+	padding: 6px 12px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.footer .footer2 .social2:hover{
+	background: linear-gradient(135deg, purple, red, yellow);
+	color: white;
+}
+.footer .footer2 .social3{
+	padding: 5px 10px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+.footer .footer2 .social3:hover{
+	background: linear-gradient(135deg, red, pink, white);
+}
+.footer .footer3 {
+	margin-left: 200px;
+}
+.footer h4{
+	margin-top: 50px;
+}
+.footer_bottom{
+	background-color: black;
+	padding: 5px;
+	color: white;
+	font-family: calibri;
+}
+/*Hal petunjuk.php*/
+.tutorial{
+	margin-top: 50px;
+	background-color: #EFEFEFD4;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+	padding: 50px;
+	font-family: calibri;
+}
+.tutorial h1{
+	color: black;
+	font-size: 50px;
+}
+.tutorial ol li{
+	margin-top: 30px;
+	margin-left: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+.tutorial ol li span{
+	color: darkblue;
+}
+.tutorial img{
+	float: right;
+	width: 200px;
+}
+.tutorial p{
+	margin-top: 50px;
+	margin-right: 100px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tutorial p span{
+	font-style: italic;
+}
+.tutorial p a{
+	color: black;
+	background-color: orange;
+	padding: 8px 15px;
+	border-radius: 30px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+	transition: 0.5s;
+}
+.tutorial p a:hover{
+	color: orange;
+	background-color: black;
+	box-shadow: -1px -1px 10px rgba(0,0,0,0.7);
+}
+/*Hal login.php*/
+.sheet1{
+	width: 100%;
+	height: 700px;
+	border-radius: 0 0 20px 20px;
+	background: linear-gradient(45deg, #FFF15BFF, #EFEFEFD4, #EFEFEFD4, #EFEFEFD4, #84E2FFFF);
+}
+.sheet1 img{
+	height: 100px;
+	display: block;
+	margin: auto;
+	padding: 30px 0 0 10px;
+}
+.login_form{
+	margin: auto;
+	position: relative;
+	top: 20px;
+	width: 700px;
+	height: 320px;
+	border-radius: 50px;
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0 -1px 7px rgba(0,0,0,0.9);
+	text-align: center;
+	transition: 0.2s;
+}
+.sheet1:hover .login_form{
+	padding: 35px;
+}
+.login_form h1{
+	font-family: Tahoma;
+}
+.login_form input[type="text"]{
+	margin-top: 30px;
+	background: transparent;
+	border: none;
+	border-bottom: solid 1px;
+	outline: none;
+	width: 500px;
+	font-size: 30px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.login_form input[type="submit"]{
+	margin-top: 30px;
+	width: 500px;
+	height: 50px;
+	background-color: #00C7FFFF;
+	border: none;
+	border-radius: 30px;
+	font-size: 20px;
+	font-family: Tahoma;
+	font-weight: bold;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.login_form input[type="submit"]:hover{
+	box-shadow: 0 1px 5px rgba(0,0,0,0.9);
+	background: linear-gradient(90deg, #0098FFFF, #007BFFFF, #002EFFFF);
+	font-size: 22px;
+}
+.login_form h4{
+	margin-top: 20px;
+	font-family: Tahoma;
+	margin-bottom: 50px;
+}
+.login_form a{
+	padding: 10px 20px;
+	background-color: #51FF32FF;
+	border-radius: 20px;
+	font-weight: bold;
+	font-family: Tahoma;
+	color: black;
+	transition: 0.5s;
+}
+.login_form a:hover{
+	background-color: #0CC100FF;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.9);
+	font-size: 15px;
+}
+.login_form .login_back{
+	float: left;
+}
+.login_form .login_petugas{
+	float: right;
+}
+/*Hal login_petugas.php*/
+.login_form_petugas{
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 30px;
+	width: 700px;
+	height: 390px;
+	padding: 20px;
+	transition: 0.3s ease-in;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.9);
+}
+.costumer_img{
+	position: absolute;
+	margin-top: -60px;
+	background-color: white;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.9);
+	transition: 0.5s;
+}
+.costumer_img img{
+	position: relative;
+	right: 5px;
+}
+.sheet1:hover .costumer_img{
+	margin-top: -80px;
+	margin-left: -10px;
+}
+.sheet1:hover .login_form_petugas{
+	padding: 30px;
+}
+.login_form_petugas h1{
+	font-family: Tahoma;
+	font-size: 25px;
+}
+.login_form_petugas h2{
+	font-family: Tahoma;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.login_form_petugas input{
+	margin: 5px 0 15px;
+	padding: 2px;
+	width: 70%;
+	font-size: 30px;
+	font-family: Tahoma;
+	font-weight: bold;
+	outline: none;
+	background: transparent;
+	border: none;
+	border-bottom: solid 1px;
+}
+.login_form_petugas input[type="submit"]{
+	padding: 5px;
+	font-size: 27px;
+	margin-top: 25px;
+	background-color: #00C7FFFF;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.login_form_petugas input[type="submit"]:hover{
+	background: linear-gradient(90deg, #0098FFFF, #007BFFFF, #002EFFFF);
+	font-size: 28px;
+	box-shadow: 0 1px 5px black;
+}
+.login_form_petugas a{
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+	font-family: Tahoma;
+	font-weight: bold;
+	color: black;
+	background-color: #51FF32FF;
+	padding: 7px 15px;
+	border-radius: 20px;
+	transition: 0.2s;
+}
+.login_form_petugas a:hover{
+	font-size: 15px;
+	box-shadow: 0 1px 5px black;
+}
+.about{
+	margin-top: 50px;
+	font-family: Helvetica;
+	color: #424242FF;
+}
+.about_box{
+	background-image: url("img/japan.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	margin: auto;
+	margin-top: 100px;
+	width: 700px;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 0 50px 0 50px;
+}
+.about_me{
+	padding: 30px;
+	background: linear-gradient(90deg, #FFFFFFB4, white ,#FFFFFFB4 );
+}
+.about_me .pp{
+	width: 180px;
+	border-radius: 50%;
+	box-shadow: 0 1px 10px black;
+	padding: 5px;
+	background-color: grey;
+	filter: brightness(95%);
+}
+.about_me h2{
+	margin-top: 10px;
+}
+.about_me h2 span{
+	color: #FF3100FF;
+}
+.about_me p{
+	margin-top: 5px;
+	font-family: calibri;
+	width: 500px;
+	margin-bottom: 5px;
+}
+.about_me .social1{
+	padding: 5px 15px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 20px;
+	transition: 0.5s;
+	box-shadow: 0 1px 5px black;
+}
+.about_me .social1:hover{
+	background-color: blue;
+	color: white;
+}
+.about_me .social2{
+	padding: 6px 12px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	transition: 0.5s;
+	box-shadow: 0 1px 5px black;
+}
+.about_me .social2:hover{
+	background: linear-gradient(135deg, purple, red, yellow);
+	color: white;
+}
+.about_me .social3{
+	padding: 5px 10px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 20px;
+	transition: 0.5s;
+	box-shadow: 0 1px 5px black;
+}
+.about_me .social3:hover{
+	background: linear-gradient(135deg, red, pink, white);
+}
